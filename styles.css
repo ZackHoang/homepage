@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+    text-align: center;
+    padding: 2rem;
+    background-color: yellow;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+}
+
+figure { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin: 0;
+    padding: 1rem;
+}
+
+figcaption {
+    font-size: 2rem;
+    color: white;
+}
+
+.p4-main {
+    width: 100%;
+}
+
+hgroup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 1em;
+}
+
+@media (min-width: 37.5em) {
+    header {
+        flex-direction: row;
+        padding: 4rem;
+    }
+
+    hgroup {
+        text-align: left;
+    }
+}
